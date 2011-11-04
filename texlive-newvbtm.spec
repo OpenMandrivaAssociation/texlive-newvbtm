@@ -1,3 +1,9 @@
+# revision 23996
+# category Package
+# catalog-ctan /macros/latex/contrib/newvbtm
+# catalog-date 2011-09-17 10:58:19 +0200
+# catalog-license lppl
+# catalog-version 1.1
 Name:		texlive-newvbtm
 Version:	1.1
 Release:	1
@@ -47,6 +53,7 @@ verbatim, such as tab emulation.
 #- source
 %doc %{_texmfdistdir}/source/latex/newvbtm/newvbtm.dtx
 %doc %{_texmfdistdir}/source/latex/newvbtm/newvbtm.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ verbatim, such as tab emulation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
