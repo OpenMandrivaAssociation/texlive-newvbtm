@@ -3,7 +3,7 @@ Version:	23996
 Release:	2
 Summary:	Define your own verbatim-like environment
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/newvbtm
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/newvbtm
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/newvbtm.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/newvbtm.doc.r%{version}.tar.xz
